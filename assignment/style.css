@@ -1,5 +1,60 @@
-body {
+#body {
   margin: 0;
+  font-family:'Roboto', sans-serif;
+}
+
+
+header {
+  padding: 20px 0;
+  color: white;
+  background-color: black;
+}
+
+header .row
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+main {
+  padding: 1em;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/05/21/45/record-store-925553_1280.jpg');
+  background-size: cover;
+  color: white;
+  height: 500px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: white;
 }
 
 footer {
@@ -10,6 +65,7 @@ footer {
 footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
+  gap: 10px;
 }
 
 footer ul {
