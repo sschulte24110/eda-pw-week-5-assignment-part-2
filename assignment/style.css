@@ -31,6 +31,10 @@ header p {
   margin: 0;
 }
 
+#header-link {
+  color: gold;
+}
+
 main {
   padding: 1em;
 }
